@@ -1,0 +1,9 @@
+[controller]
+actuators = ["RealSenseActuator"]
+states = ["SetUp", "TearDown", "SelfCheck", "Active", "DeActive", "Protected", "LowPower", "OTA", "Error"]
+default_time = 100 # milliseconds
+default_state = "Uninitialized"
+
+[actuator.RealSenseActuator]
+states = ["SetUp", "TearDown", "SelfCheck", "Active", "DeActive", "Protected", "LowPower", "OTA", "Error"]
+times = [100, 100, 100, 100, 100, 100, 100, 100, 100]
